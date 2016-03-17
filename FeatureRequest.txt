@@ -1,0 +1,9 @@
+1) Start from Oscar ( Instead of OBS). The URL won’t be listed in Service Directory. You will need to go into the Oscar page -> Debug Menu and get service directory URL from there [done]
+
+2) Ability to click on node and download the raw timer data [done]
+
+3) Ability to find peers and aggregate data 
+
+4) Ability to re-fetch the timer data.
+
+5) Ability to switch across multiple environments
