@@ -31,7 +31,7 @@ public class PublicAspect {
 			System.out.println("in init");
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/?user=root&password=root123");
+			connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root&password=root123");
 			
 			preparedStatement = connection.prepareStatement("insert into seq_viz.data(invocation_id, seq_no, class, api, side, service) values (?,?,?,?,?,?)");
 			statement = connection.createStatement(); 
